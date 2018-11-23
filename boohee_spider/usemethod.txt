@@ -1,0 +1,2 @@
+在scrapy.cfg的目录执行命令，记得进虚拟环境
+scrapy crawl spidername -o food_name.json
