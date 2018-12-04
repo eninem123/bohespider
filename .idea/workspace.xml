@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a891c068-c247-4de7-8d8e-eacbcaf2cd53" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/boohee_spider/scrapy.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boohee_spider/usemethod.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boohee/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boohee/data_transfer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boohee/items.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boohee/middlewares.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boohee/pipelines.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boohee/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boohee/spiders/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boohee/spiders/food_detail.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boohee/spiders/food_name_spider.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_scrapy/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_scrapy/quotes_spider.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food_detail.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food_name.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rhinotech_spider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rhinotech_spider.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy.cfg" afterDir="false" />
-    </list>
+    <list default="true" id="a891c068-c247-4de7-8d8e-eacbcaf2cd53" name="Default" comment="解释用法" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,11 +25,12 @@
     <session id="-1950956334">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -58,8 +39,9 @@
           <entry key="csv" value="26" />
           <entry key="iml" value="1" />
           <entry key="json" value="46" />
+          <entry key="md" value="1" />
           <entry key="py" value="44" />
-          <entry key="txt" value="3" />
+          <entry key="txt" value="4" />
           <entry key="上海菜 " value="2" />
           <entry key="东北菜 " value="3" />
           <entry key="其它" value="1" />
@@ -73,7 +55,8 @@
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Ini" value="5" />
           <entry key="JSON" value="46" />
-          <entry key="PLAIN_TEXT" value="38" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="39" />
           <entry key="Python" value="44" />
         </counts>
       </usages-collector>
@@ -81,15 +64,17 @@
         <counts>
           <entry key="cfg" value="4" />
           <entry key="json" value="10" />
+          <entry key="md" value="98" />
           <entry key="py" value="669" />
-          <entry key="txt" value="40" />
+          <entry key="txt" value="80" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Ini" value="4" />
           <entry key="JSON" value="10" />
-          <entry key="PLAIN_TEXT" value="40" />
+          <entry key="Markdown" value="98" />
+          <entry key="PLAIN_TEXT" value="80" />
           <entry key="Python" value="669" />
         </counts>
       </usages-collector>
@@ -99,20 +84,7 @@
     <favorites_list name="rhinotech_spider" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/boohee_spider/boohee/data_transfer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="151" column="47" selection-start-line="151" selection-start-column="47" selection-end-line="151" selection-end-column="47" />
-              <folding>
-                <element signature="e#24#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -195,6 +167,7 @@
         <option value="$PROJECT_DIR$/boohee_spider/food_detail.json" />
         <option value="$PROJECT_DIR$/boohee_spider/boohee/csv/dishes/上海菜 .csv" />
         <option value="$PROJECT_DIR$/boohee_spider/boohee/data_transfer.py" />
+        <option value="$PROJECT_DIR$/Readme.md" />
       </list>
     </option>
   </component>
@@ -231,13 +204,6 @@
               <item name="boohee_spider" type="462c0819:PsiDirectoryNode" />
               <item name="boohee" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="boohee_spider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="boohee_spider" type="462c0819:PsiDirectoryNode" />
-              <item name="boohee_spider" type="462c0819:PsiDirectoryNode" />
-              <item name="boohee" type="462c0819:PsiDirectoryNode" />
-              <item name="csv" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -259,14 +225,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/boohee_spider/boohee" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/boohee_spider" />
       <recent name="$PROJECT_DIR$/boohee_spider/boohee" />
       <recent name="$PROJECT_DIR$/boohee_spider/boohee/spiders" />
       <recent name="$PROJECT_DIR$/tutorial/tutorial/tutorial/spiders" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/boohee_spider/boohee" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -804,6 +771,21 @@
       <workItem from="1500452592825" duration="6089000" />
       <workItem from="1500549660593" duration="8772000" />
     </task>
+    <task id="LOCAL-00001" summary="用命令执行爬虫，生成json文件，基于json文件可以生成csv">
+      <created>1542961106977</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542961106977</updated>
+    </task>
+    <task id="LOCAL-00002" summary="解释用法">
+      <created>1542961494779</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1542961494779</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -820,9 +802,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49362478" visible="true" weight="0.22617124" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49362478" visible="true" weight="0.22940226" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -905,6 +886,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="用命令执行爬虫，生成json文件，基于json文件可以生成csv" />
+    <MESSAGE value="解释用法" />
+    <option name="LAST_COMMIT_MESSAGE" value="解释用法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1024,13 +1010,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boohee_spider/usemethod.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/boohee_spider/boohee/spiders/food_detail.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1059,9 +1038,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boohee_spider/boohee/groups/私家菜 ">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/boohee_spider/boohee/groups/私家菜 " />
     <entry file="file://$USER_HOME$/anaconda3/envs/spider/lib/python3.6/codecs.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1119,42 +1096,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boohee_spider/boohee/groups/其它">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="57" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boohee_spider/boohee/groups/凉拌">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/boohee_spider/boohee/groups/其它" />
+    <entry file="file://$PROJECT_DIR$/boohee_spider/boohee/groups/凉拌" />
     <entry file="file://$PROJECT_DIR$/boohee_spider/food_detail.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-11141" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boohee_spider/boohee/groups/东北菜 ">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boohee_spider/boohee/groups/上海菜 ">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/boohee_spider/boohee/groups/东北菜 " />
+    <entry file="file://$PROJECT_DIR$/boohee_spider/boohee/groups/上海菜 " />
     <entry file="file://$PROJECT_DIR$/boohee_spider/boohee/data_transfer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="151" column="47" selection-start-line="151" selection-start-column="47" selection-end-line="151" selection-end-column="47" />
+        <state relative-caret-position="309">
+          <caret line="146" column="23" lean-forward="true" selection-start-line="146" selection-start-column="23" selection-end-line="146" selection-end-column="23" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="41" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="140">
+            <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
